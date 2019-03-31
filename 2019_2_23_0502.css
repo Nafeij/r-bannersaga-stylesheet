@@ -201,7 +201,7 @@ body .entry .buttons .first a, body .entry .buttons .first a .newComments, .entr
 	
 div.content {
 	position: relative;
-	margin: 18px 333px 0 28px!important;
+	margin: -14px 333px 0 28px!important;
 	padding-bottom: 45px;
 	background: url(%%war-sliding-banner%%);
 	font-family: Segoe,"Segoe UI",Helvetica,Arial;
@@ -1035,7 +1035,7 @@ a[href="#s"]:active:after {
 	To find length of announcement, open dev console and enter:
 	$('.titlebox h6 > strong').css('display', 'inline').width()
 	
-	*/
+	
 .titlebox .md h6 {
 	position: absolute;
 	top: 218px;
@@ -1085,6 +1085,7 @@ a[href="#s"]:active:after {
 	 98% { opacity: 0; text-indent: -1562px; }
 	 99% { opacity: 0; text-indent: 100%; }
 }
+*/
 	
 	/****************************************************************
 	*   *
@@ -1281,7 +1282,7 @@ body:not(.loggedin) #header-bottom-right a.hover {
 	background: transparent;
 	margin-right: 17px;
 	font-family: sans-serif !important;
-    margin-top: -49px;
+    margin-top: -51px;
 }
 	
 .side .md {color: #444444}
@@ -2068,7 +2069,7 @@ html:lang(ns) .side .md h4 a[href="https://www.reddit.com/r/bannersaga"]:active{
 	/* Display pop-out link flair at right of post */
 .listing-page .link .title>.linkflairlabel {
 	background-color: transparent;
-	font: bold 12px Lato,Arial,sans-serif;
+	font: bold 11px Lato,Arial,sans-serif;
 	text-transform: uppercase;
 	width: 100px;
 	position: absolute;
